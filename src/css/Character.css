@@ -1,0 +1,45 @@
+.character {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  position: relative;
+  transition: 0.3s;
+  width: 50%;
+}
+
+.character img {
+  padding: 1rem;
+  width: 100%;
+}
+
+.character .back {
+  color: black;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 0.5rem;
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  top: 10px;
+}
+
+.character .back:hover {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.character .container {
+  display: grid;
+  grid-column: 1fr;
+  padding: 1rem 1rem;
+}
+
+.character .container .row {
+  justify-self: center;
+  margin: 0.5rem;
+}
+
+.character .name {
+  font-size: 3rem;
+  justify-self: center;
+}
