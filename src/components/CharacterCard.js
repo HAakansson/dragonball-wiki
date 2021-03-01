@@ -11,8 +11,12 @@ function Character(props) {
     props.data.image = freiza100Image;
   }
 
+  const handleClick = () => {
+    history.push(`/characters/${props.data.id}`)
+  }
+
   return (
-    <div className="character">
+    <div className="character-card" onClick={handleClick}>
       <img src={props.data.image} alt={props.data.name} />
       <div className="container">
         <span className="name">{props.data.name}</span>
