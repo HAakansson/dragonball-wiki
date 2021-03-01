@@ -1,7 +1,10 @@
-function App() {
+import Navbar from "./components/Navbar";
+
+function App(props) {
   return (
     <div className="app">
-      <h1>This is the React App</h1>
+      <Navbar />
+      {props.children}
     </div>
   );
 }

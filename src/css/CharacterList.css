@@ -1,0 +1,9 @@
+.character-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+  margin: 2rem auto;
+  place-items: center;
+  width: 80%;
+}

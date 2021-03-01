@@ -1,0 +1,35 @@
+.navbar {
+  align-items: center;
+  background: rgba(135, 207, 235, 0.5);
+  display: grid;
+  grid-template-columns: 5% 1fr;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.navbar img {
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.navbar ul {
+    justify-self: end;
+
+}
+
+.links {
+  color: red;
+  font-size: 3rem;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.logo,
+.links {
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+.links:hover {
+  color: rgba(255, 0, 0, 0.5);
+}
