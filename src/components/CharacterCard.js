@@ -21,8 +21,8 @@ function Character(props) {
       <div className="container">
         <span className="name">{props.data.name}</span>
         <div className="power-level row">
-          <span>Powerlevel:</span>
-          <span>{props.data.powerLevel}</span>
+          <span>Power:</span>
+          <span>{props.data.power}</span>
         </div>
         <div className=" species row">
           <span>Species:</span>

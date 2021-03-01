@@ -49,7 +49,7 @@ function Character(props) {
             <span>Species: {character.species}</span>
           </div>
           <div className="powerLevel row">
-            <span>Power Level: {character.powerLevel}</span>
+            <span>Power Level: {character.power}</span>
           </div>
           <div className="planet row">
             <span>
