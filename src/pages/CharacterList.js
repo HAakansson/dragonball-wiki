@@ -15,10 +15,12 @@ function CharacterList() {
 
   return (
     <div className="character-list">
-      {characters &&
-        characters.map((character, i) => (
-          <CharacterCard key={i} data={character} />
-        ))}
+      <div className="character-list-container">
+        {characters &&
+          characters.map((character, i) => (
+            <CharacterCard key={i} data={character} />
+          ))}
+      </div>
     </div>
   );
 }
