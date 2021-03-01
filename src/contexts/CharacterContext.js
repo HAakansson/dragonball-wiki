@@ -9,10 +9,6 @@ function CharacterProvider(props) {
     setCharacters(require("../json/characters.json"));
   }, []);
 
-  // useEffect(() => {
-  //   if (characters) console.log(characters);
-  // }, [characters]);
-
   const values = {
     characters,
   };

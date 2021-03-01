@@ -6,7 +6,6 @@ function Character(props) {
   const { characters } = useContext(CharacterContext);
 
   useEffect(() => {
-    console.log("params: ", props.match.params);
     setCharacter(
       characters.find(
         (character) => parseInt(props.match.params.id) === character.id
