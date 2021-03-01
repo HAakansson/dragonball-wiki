@@ -44,8 +44,9 @@ function CharacterList() {
   const sortedCharacters = sortBy(characters, sortChoice);
 
   return (
-    <div>
+    <div className="character-list">
       <div className="sort-container">
+        <span>Sort by: </span>
         <select onChange={handleChange}>
           {options.map((option, i) => (
             <option key={i} value={option}>
@@ -54,7 +55,7 @@ function CharacterList() {
           ))}
         </select>
       </div>
-      <div className="character-list">
+      <div className="character-list-container">
         {characters &&
           sortedCharacters.map((character, i) => (
             <CharacterCard key={i} data={character} />

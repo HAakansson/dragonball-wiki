@@ -1,4 +1,4 @@
-.character-list {
+.character-list .character-list-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
@@ -6,4 +6,16 @@
   margin: 2rem auto;
   place-items: center;
   width: 80%;
+}
+
+.character-list .sort-container {
+  font-size: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.character-list .sort-container select {
+  border-radius: 5px;
+  font-size: 2rem;
+  padding: 0 1rem;
 }
