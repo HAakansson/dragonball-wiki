@@ -4,6 +4,7 @@ import CharacterProvider from "./contexts/CharacterContext";
 import Home from "./pages/Home";
 import CharacterList from "./pages/CharacterList";
 import Navbar from "./components/Navbar";
+import Character from "./components/Character";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Navbar />
           <Route exact path="/" component={Home} />
           <Route exact path="/characters" component={CharacterList} />
+          <Route exact path="/characters/:id" component={Character} />
         </BrowserRouter>
       </CharacterProvider>
     </div>
