@@ -1,33 +1,34 @@
-.character {
+.character-card {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  width: 250px;
 }
 
-.character:hover {
+.character-card:hover {
   background: rgba(255, 255, 255);
 }
 
-.character img {
+.character-card img {
   padding: 1rem;
   width: 100%;
 }
 
-.container {
+.character-card .container {
   display: grid;
   grid-column: 1fr;
   padding: 2px 16px;
 }
 
-.container .name {
+.character-card .container .name {
   font-size: 1.5rem;
   justify-self: center;
   margin-bottom: 1rem;
 }
 
-.container .row {
+.character-card .container .row {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;

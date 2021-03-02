@@ -12,7 +12,7 @@ function Character(props) {
   }
 
   return (
-    <div className="character">
+    <div className="character-card">
       <img src={props.data.image} alt={props.data.name} />
       <div className="container">
         <span className="name">{props.data.name}</span>
