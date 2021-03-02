@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Tienshinhan",
-    "species": "Triclops",
+    "species": "Human/Triclops",
     "power": 65000,
     "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/dd9hzfq-4906ce3a-a866-48d2-8937-88768dd5dc82.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODRkYzEzYjctYTJlNy00YjQ1LTgzZWMtMzExZTcyZTgyOTAwXC9kZDloemZxLTQ5MDZjZTNhLWE4NjYtNDhkMi04OTM3LTg4NzY4ZGQ1ZGM4Mi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ._LPZ_9WbXsJL42uaMHS2x2I8fD1ooTMMJ6LrOMJjumY",
     "url": "https://dragonball.fandom.com/wiki/Tien_Shinhan",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Son Gohan",
-    "species": "Half Human - Half Saiyan",
+    "species": "Human/Saiyan",
     "power": 200000,
     "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/dd4p5fu-fc1fde4f-ca08-4a8c-b8df-ad3ba9ce6398.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODRkYzEzYjctYTJlNy00YjQ1LTgzZWMtMzExZTcyZTgyOTAwXC9kZDRwNWZ1LWZjMWZkZTRmLWNhMDgtNGE4Yy1iOGRmLWFkM2JhOWNlNjM5OC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.F7UpfdE5wDSUBhrpp94WdoCFCDRH9Ebx5q7-L1oKiAw",
     "url": "https://dragonball.fandom.com/wiki/Gohan",
@@ -121,7 +121,7 @@
   },
   {
     "id": 11,
-    "name": "Freiza Final Form 100%",
+    "name": "Freiza FF 100%",
     "species": "Freiza Race",
     "power": 120000000,
     "image": "freiza",
@@ -133,7 +133,7 @@
   },
   {
     "id": 12,
-    "name": "Son Goku Super Saiyan",
+    "name": "Son Goku SSJ",
     "species": "Saiyan",
     "power": 150000000,
     "image": "https://i.imgur.com/bQgK8tJ.png",
